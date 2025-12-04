@@ -2,6 +2,8 @@ import streamlit as st
 import requests
 
 API_KEY = st.secrets["API_KEY"]
+st.write("API-Key geladen!")
+st.write(API_KEY)
 
 def main():
     st.title("Meine API-App")
